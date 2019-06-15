@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="https://github.com/"/>
+	<remote name="sourceware" fetch="git://sourceware.org/git/"/>
+
+	<project path="llvm-project" name="llvm/llvm-project.git" remote="github" revision="refs/tags/llvmorg-8.0.0"/>
+	<project path="binutils" name="binutils-gdb.git" remote="sourceware" revision="refs/tags/binutils-2_32"/>
+
+</manifest>
